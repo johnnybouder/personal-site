@@ -9,12 +9,17 @@ import { CheeseService } from '../../services/cheese/cheese.service';
 export class CheeseComponent implements OnInit {
 
   items: any = [];
+  private subscription: any;
   
-  constructor(private cheeseService : CheeseService) { }
+  constructor(public cheeseService : CheeseService) { }
 
   ngOnInit(): void {
-    this.cheeseService.getItems().subscribe(data => {
+    this.subscription = this.cheeseService.getItems().subscribe(data => {
       this.items = data;
     });
+  }
+
+  ngOnDestroy(): void {
+    this.subscription.unsubscribe();
   }
 }
