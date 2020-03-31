@@ -8,7 +8,7 @@ import { CheeseService } from '../../services/cheese/cheese.service';
 })
 export class CheeseComponent implements OnInit {
 
-  items: any = [];
+  public items: any = [];
   private subscription: any;
   
   constructor(public cheeseService : CheeseService) { }
