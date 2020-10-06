@@ -2,4 +2,4 @@
 
 ng build --prod=true --baseHref=/personal-site/
 
-cp docs/index.html docs/404.html
+cp dist/personal-site/index.html dist/personal-site/404.html

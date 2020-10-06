@@ -8,7 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build-prod": "./build.sh"
+    "build-prod": "./build.sh",
+    "deploy": "gh-pages -d dist/personal-site"
   },
   "private": true,
   "dependencies": {
@@ -35,6 +36,7 @@
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.12.62",
     "codelyzer": "^5.1.2",
+    "gh-pages": "^3.1.0",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~4.3.0",
