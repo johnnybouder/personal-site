@@ -1,0 +1,26 @@
+[
+    {
+        "name":"Seriously Sharp",
+        "company":"Cabot",
+        "country":"US",
+        "type":"Cheddar",
+        "notes":"Very sharp, moist, and crumbly.",
+        "rating":5
+    },
+    {
+        "name":"1916",
+        "company":"Wegmans",
+        "country":"US",
+        "type":"Washed Rind, Goat",
+        "notes":"Creamy, with a slight moldy flavor.",
+        "rating":5
+    },
+    {
+        "name":"Bailey Hazen",
+        "company":"Jasper Hill",
+        "country":"US",
+        "type":"Blue",
+        "notes":"Creamy, slightly salty, crumbly.",
+        "rating":5
+    }
+]
